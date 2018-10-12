@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section
+{
+	display:block;
+}
+ html, body, h1, h2, h3, ul, li, a, p,
+ article, aside, footer, header, main, nav, section
+ {
+	padding: 0;
+	margin: 0;
+ } 
+h2 {
+	float:center;
+} 
+	
+.name {
+	
+    color: #00FFFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: #000 2px 2px;
+    position: relative;
+}
+
+#gameCanvas {
+  border: 1px solid black;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: black;
+}
+
+main{
+	
+	display:block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right:auto;
+	width: 50%;
+	padding: 0px;
+}
+
+
+section{
+	
+	margin-top: 10px;
+	
+}
+
+article{
+	
+	background-color:#998888;
+	margin-top: 5px;
+	color:white;
+	text-align:center;
+	margin-bottom: 5px;
+	padding: 10px 15px;
+}
+
+
+
+body{
+	
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFCC;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+    background-size:100%; 
+	background-image :url("http://blogs-images.forbes.com/steveolenski/files/2014/09/video_games_1.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	
+ }
+ 
+	  
+#footer {
+	
+   position: fixed;
+   bottom:0;
+   width:100%;
+   height:auto;   
+   background:#998888;
+}
+
+
+li {
+	 display:inline;
+ }
+ 
+
+nav.menu > li {
+	padding: 15px; 
+	word-wrap:normal;
+	
+	 display:inline-block; 
+	 float:center;
+	 background-color: #998888;
+	 
+ }
+ 
+ #hover_img li {
+   list-style: none;   
+   display: inline;
+   margin: 0;
+   padding:0 ;
+
+}
+
+#hover_img a {
+   width:32px;
+   height:32px;
+   display:block;
+
+}
+
+#item1 a {
+   background: url(sprite-example.gif) 
+    0px  0px no-repeat;}
+
+#item2 a {
+   background: url(sprite-example.gif) 
+    -32px 0px no-repeat;}
+#item3 a {
+   background: url(sprite-example.gif) 
+    -64px  0px no-repeat;}
+#item1 a:hover {
+     background: transparent url(sprite-example.gif)
+    0 -32px no-repeat;}
+
+#item2 a:hover {
+     background: transparent url(sprite-example.gif)
+    -32px -32px no-repeat;}
+#item3 a:hover {
+     background: transparent url(sprite-example.gif)
+    -64px -32px no-repeat;}
+	
+	
+nav.menu
+ {	
+	float:center;
+	background-color: #998888;
+	border: 1px solid gray;
+	border-radius: 8px;
+	color: white;
+	width: 20%;
+	padding-left: 28px;
+	overflow: hidden;
+ }
+ 
+	nav.menu > ul > li > a
+	{
+		
+		background-color: #998888;
+		border-bottom: 3px ;
+		color: white;
+		padding: 12px;
+		font-size: .77rem;
+		font-weight: 360;
+		height: 48px;
+		letter-spacing: .2rem;
+		line-height: 40px;
+		text-transform: uppercase;
+	
+}
+
+nav.menu > ul > li > a:hover 
+{
+		padding: 1px;
+		background-color: #eedde7;	
+}
+
